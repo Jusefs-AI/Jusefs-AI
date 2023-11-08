@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Kompatibilität mit IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interaktiver ChatGPT Assistent"> <!-- Beschreibung für SEO -->
+    <meta name="keywords" content="ChatGPT, AI, Chatbot, Assistent"> <!-- Schlüsselwörter für SEO -->
+    <title>ChatGPT Assistent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Optimiert das Laden von Schriftarten -->
+    <link href="https://fonts.googleapis.com/css2?family=Orpheus+Pro&display=swap" rel="stylesheet"> <!-- Schriftart einbinden -->
+</head>
+<body>
+    <form id="chatbotForm" action="javascript:void(0);" method="post" aria-label="Chatbot Formular">
+        <div id="chatbotContainer" role="region" aria-labelledby="chatbotGreeting">
+            <h1 id="chatbotGreeting">Hallöchen! Was möchtest du mich fragen?</h1> <!-- Überschrift geändert für bessere Struktur -->
+            <input type="text" id="chatbotInput" name="chatbotInput" placeholder="Tippe hier für Fragen an Jusef" aria-required="true">
+            <div id="chatbotOutput" aria-live="polite"></div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
